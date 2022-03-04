@@ -15,6 +15,8 @@
 
 package com.google.samples.motionlayoutcodelab
 
+import android.graphics.Color
+import android.graphics.ColorFilter
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
@@ -29,5 +31,9 @@ class Step6Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_step6)
+
+        // just to check the colorFilter property
+        // val imgMoon = findViewById<ImageView>(R.id.moon);
+        // imgMoon.setColorFilter(Color.GREEN)
     }
 }
